@@ -1,0 +1,119 @@
+.main {
+  display: grid;
+  background-color: #f0f8ff;
+  grid-template-columns: 50% 25% 25%;
+}
+.main h1 {
+  display: block;
+  border-bottom: 1px #d0dede solid;
+  color: #0000ff;
+  font-size: 24px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.main p {
+  margin: 8px 0;
+}
+.timeline {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.dig-sect {
+  border: 8px #0000ff solid;
+}
+.dig-target {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-items: start;
+}
+.dig-target i {
+  text-align: center;
+  font-size: 24px;
+}
+.scopes {
+  border: 8px #0000ff solid;
+}
+.scopes .scope {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.border-b {
+  border-bottom: 1px #d0dede solid;
+}
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* Tablet */
+@media (min-width: 46.3125em) and (max-width: 63.9375em) {
+  .main {
+    display: grid;
+    background-color: #f0f8ff;
+    grid-template-columns: 100%;
+    margin: 8px;
+  }
+  .dig-sect,
+  .scopes {
+    border: none;
+  }
+  .timeline {
+    grid-column: inherit;
+    grid-row: inherit;
+  }
+  .goals {
+    grid-row: 1/2;
+  }
+  .scopes {
+    grid-row: 2/3;
+  }
+  .team {
+    grid-row: 3/4;
+  }
+  .primary {
+    grid-row: 4/5;
+  }
+  .team-tablet {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.25em) {
+  .main {
+    display: grid;
+    background-color: #f0f8ff;
+    grid-template-columns: 100%;
+    margin: 8px;
+  }
+  .dig-sect,
+  .scopes {
+    border: none;
+  }
+  .timeline {
+    grid-column: inherit;
+    grid-row: inherit;
+  }
+  .goals i,
+  .scopes i,
+  .team i {
+    display: none;
+  }
+  .goals {
+    grid-row: 1/2;
+  }
+  .scopes {
+    grid-row: 2/3;
+  }
+  .team {
+    grid-row: 3/4;
+  }
+  .primary {
+    grid-row: 4/5;
+  }
+  .grid-mb {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: start;
+  }
+}

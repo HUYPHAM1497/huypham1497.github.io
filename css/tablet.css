@@ -1,0 +1,43 @@
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .avatar {
+    display: none;
+  }
+  .nav-right {
+    margin-right: 0;
+    margin-left: 1.5em;
+    border-left: 1px solid #ccc;
+  }
+  .nav-left {
+    margin-left: 0;
+    margin-right: 1.5em;
+    border-right: 1px solid #ccc;
+  }
+  #job-info {
+    grid-template-columns: 360px 360px;
+    justify-content: space-evenly;
+    gap: 8px 0;
+    margin: 16px 8px;
+  }
+  #job-info .job-passion {
+    margin-top: -41px;
+  }
+  #job-info .job-langua {
+    margin-top: 0;
+  }
+  #job-info .job-skill {
+    margin-top: -320px;
+  }
+  #project .prj-chill-title {
+    min-height: 66px;
+  }
+  #project .ic-devdev {
+    grid-column: 2;
+  }
+  .project-grid-element table {
+    height: 380px;
+  }
+  .project-grid-element table th {
+    width: min-content;
+  }
+}

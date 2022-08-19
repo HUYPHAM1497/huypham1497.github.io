@@ -1,0 +1,80 @@
+/* Mobile */
+@media (max-width: 46.25em) {
+  #banner h1 {
+    font-size: 24px;
+    margin-bottom: -4px;
+  }
+  .banner-title span {
+    font-size: 12px;
+  }
+  #nav-bar {
+    text-align: left;
+  }
+  .avatar {
+    display: none;
+  }
+  #nav-bar a {
+    display: block;
+    border: none;
+  }
+  .nav-left,
+  .nav-right {
+    display: block;
+    border: none;
+    margin: 0 8px;
+  }
+  #about {
+    grid-template-columns: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  #job-info {
+    grid-template-columns: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  #job-info .job-langua,
+  #job-info .job-skill {
+    margin: 0;
+  }
+  .passion-grid i {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    padding: 24px 0px;
+  }
+  .cert-grid {
+    grid-template-columns: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .cert-content {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
+  .cert-right {
+    border: none;
+  }
+  .cert-top {
+    grid-column: unset;
+    border: none;
+  }
+  .cert-content h5 {
+    font-size: 14px;
+  }
+  .cert-content p {
+    margin: 0;
+  }
+  .project-grid-container {
+    grid-template-columns: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .prj-info {
+    grid-template-columns: auto;
+    gap: 4px;
+  }
+  #footer span {
+    display: none;
+  }
+}
